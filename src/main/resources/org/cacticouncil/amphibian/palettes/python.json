@@ -1,0 +1,260 @@
+{
+  "mode":"python",
+  "modeOptions":{
+    "functions":{
+      "newLine":{
+        "color":"blue"
+      }
+    }
+  },
+  "palette":[
+    {
+      "name":"General",
+      "color":"blue",
+      "blocks":[
+        {
+          "id": "import_module",
+          "block":"import module"
+        },
+        {
+          "id": "import_from",
+          "block":"from module import thing"
+        },
+        {
+          "id": "import_as",
+          "block":"import library as name"
+        },
+        {
+          "id": "var_assign",
+          "block":"val = 0"
+        },
+        {
+          "id": "string_assign",
+          "block":"val = 'Hello world'"
+        },
+        {
+          "id": "list_assign",
+          "block":"val = [False, 1, 2.0, '3']"
+        },
+        {
+          "id": "tuple_assign",
+          "block":"val = (False, 1, 2.0, '3')"
+        },
+        {
+          "id": "dict_assign",
+          "block":"val = {'a': 1, 'b': 'tw0'}"
+        },
+        {
+          "id": "comment",
+          "block":"# comment"
+        }
+      ]
+    },
+    {
+      "name":"Classes",
+      "color":"purple",
+      "blocks":[
+        {
+          "id": "class_declaration",
+             "block":"class ClassName:\n  def __init__(self, param):\n    pass\n"
+        },
+        {
+          "id": "instance_method",
+          "block":"def method(self, param):\n  pass\n"
+        },
+        {
+          "id": "static_method",
+          "block":"@staticmethod\ndef method(self, param):\n  pass\n"
+        },
+        {
+          "id": "static_method",
+          "block":"class_object = ClassName('This is the default constructors args parameter!')"
+        }
+      ]
+    },
+    {
+      "name":"Control",
+      "color":"orange",
+      "blocks":[
+        {
+          "id": "for",
+          "block":"for i in range(0, 10):\n  pass"
+        },
+        {
+          "id": "while",
+          "block":"while 0 == 0:\n  pass"
+        },
+        {
+          "id": "break",
+          "block":"break"
+        },
+        {
+          "id": "continue",
+          "block":"continue"
+        },
+        {
+          "id": "if",
+          "block":"if 0 == 0:\n  pass"
+        },
+        {
+          "id": "if_else",
+          "block":"if 0 < 0:\n  pass\nelse:\n  pass"
+        },
+        {
+          "id": "if_elif_else",
+          "block":"if 0 < 0:\n  pass\nelif 0 > 0:\n  pass\nelse:\n  pass"
+        }
+      ]
+    },
+    {
+      "name": "Functions",
+      "color": "amber",
+      "blocks":[
+        {
+          "block":"def FunctionName(args):\n  return"
+        },
+        {
+          "block":"FunctionName(args)"
+        },
+        {
+          "block":"lambda_variable = lambda args: args * 2"
+        },
+        {
+          "block":"return return_value"
+        },
+        {
+          "block":"return"
+        }
+      ]
+    },
+    {
+      "name": "Logic",
+      "color": "cyan",
+      "blocks":[
+        {
+          "block":"a == b"
+        },
+        {
+          "block":"a != b"
+        },
+        {
+          "block":"a <> b"
+        },
+        {
+          "block":"a > b"
+        },
+        {
+          "block":"a < b"
+        },
+        {
+          "block":"a >= b"
+        },
+        {
+          "block":"a <= b"
+        },
+        {
+          "block":"a and b"
+        },
+        {
+          "block":"a or b"
+        },
+        {
+          "block":"not a"
+        },
+        {
+          "block":"a in b"
+        },
+        {
+          "block":"a is b"
+        }
+      ]
+    },
+    {
+      "name":"Arithmetic",
+      "color":"teal",
+      "blocks":[
+        {
+          "block":"(a)"
+        },
+        {
+          "block":"a + b"
+        },
+        {
+          "block":"a - b"
+        },
+        {
+          "block":"a * b"
+        },
+        {
+          "block":"a ** b"
+        },
+        {
+          "block":"a / b"
+        },
+        {
+          "block":"a // b"
+        },
+        {
+          "block":"a % b"
+        },
+        {
+          "block":"a & b"
+        },
+        {
+          "block":"a | b"
+        },
+        {
+          "block":"a ^ b"
+        },
+        {
+          "block":"~a"
+        },
+        {
+          "block":"a << 1"
+        },
+        {
+          "block":"a >> 1"
+        },
+        {
+          "block":"a += b"
+        },
+        {
+          "block":"a -= b"
+        },
+        {
+          "block":"a *= b"
+        },
+        {
+          "block":"a **= b"
+        },
+        {
+          "block":"a /= b"
+        },
+        {
+          "block":"a //= b"
+        },
+        {
+          "block":"a %= b"
+        }
+      ]
+    },
+    {
+      "name":"Text IO",
+      "color":"green",
+      "blocks":[
+        {
+          "block":"# To be added"
+        }
+      ]
+    },
+    {
+      "name":"Math Library",
+      "color":"black",
+      "blocks":[
+        {
+          "block":"# To be added"
+        }
+      ]
+    }
+  ]
+}
